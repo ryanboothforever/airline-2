@@ -20,22 +20,18 @@ class Header extends Component {
                 Winged Mare Airlines
               </span>
             </a>
-            <a
-              href="#"
-              data-target="slide-out"
-              className="sidenav-trigger show-on-large"
-            >
-              <i className="material-icons">menu</i>
+            <a href="#" data-target="slide-out" className="sidenav-trigger ">
+              <span className="material-icons">Menu</span>
             </a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li>
-                <a href="sass.html">Book</a>
+                <a href="#">Book</a>
               </li>
               <li>
-                <a href="badges.html">Check In</a>
+                <a href="#">Check In</a>
               </li>
               <li>
-                <a href="collapsible.html">Flight Status</a>
+                <a href="#">Flight Status</a>
               </li>
             </ul>
           </div>
